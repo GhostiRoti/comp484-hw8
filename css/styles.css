@@ -25,13 +25,18 @@ html {
     
 }
 body {
-    background-color: #715A5A;
+    background-image: url(images/EldenRing.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background: linear-gradient(to bottom, rgba(54, 53, 46, 0.5), rgb(0,0,0,0)) no-repeat;*/
     font-family:"Roboto", sans-serif;
     font-size: 16px;
     margin:0px;
     padding-top:0px;
-
+    
 }
+
 h1 {
     font-size:44px;
     margin:0;
@@ -79,9 +84,9 @@ h3 {
 nav{
     position: fixed;
     top: 0;
-    left: 0;
+    left: 0;   
     width: 100%;
-    background: #b997b6;
+    background: #a89154;
 }
 .toolbar a{
     text-decoration: none;
@@ -90,17 +95,18 @@ nav{
     float: right;
     font-weight: bold;
 }
+.fa-linkedin {
+    color: #0077b5; /* LinkedIn blue */
+}
 /* Header & Footer 
 ------------------------------------*/
 header {
-    background-color: #37353E;
     color: snow;
     font-family:"Roboto", sans-serif;
     padding:5px;
 
 }
 footer {
-    background-color: #715A5A;
     color: snow;
     padding:10px;
     font-family:"Roboto", sans-serif;
