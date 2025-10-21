@@ -1,0 +1,109 @@
+/* Color Palette
+# - 37353E
+# - 44444E
+# - 715A5A
+# - D3D4DA
+*/
+
+.roboto-robo-text {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "width" 100;
+}
+/* Global styles 
+------------------------------------*/
+html {
+    box-sizing:border-box;
+
+}
+*,*:before, *:after {
+    box-sizing: inherit;
+    
+}
+body {
+    background-color: #715A5A;
+    font-family:"Roboto", sans-serif;
+    font-size: 16px;
+    margin:0;
+
+}
+h1 {
+    font-size:44px;
+    margin:0;
+
+}
+h2 {
+    font-size:26px;
+    margin-bottom: 10px;
+
+}
+h3 {
+    font-size:18px;
+    margin:0;
+
+}
+.content-wrap {
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow: hidden;
+
+}
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+
+}
+.profile-img {
+    border-radius:50%;
+
+}
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+
+}
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+    
+}
+/* Header & Footer 
+------------------------------------*/
+header {
+    background-color: #37353E;
+    color: snow;
+    font-family:"Roboto", sans-serif;
+    padding:5px;
+
+}
+footer {
+    background-color: #715A5A;
+    color: snow;
+    padding:10px;
+    font-family:"Roboto", sans-serif;
+    text-align:center;
+
+}
+/* Work Experience
+------------------------------------*/
+#workexp {
+    background-color: #D3D4DA;
+    padding:10px;
+    font-family:"Roboto", sans-serif;
+
+}
+
+/* Education
+------------------------------------*/
+#edu {
+    background-color: #D3D4DA;
+    padding:10px;
+    font-family:"Roboto", sans-serif;
+
+}
